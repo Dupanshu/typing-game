@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,
+         initial-scale=1.0">
+        <meta name="author" content="Dupanshu">
+        <meta name="description" content="My 
+        web page">
+        <meta name="keywords" content="html, css, web,
+         web development, seo, JavaScript ">
+    <title>Typing Game</title>
+    <link
+     rel="shortcut icon"
+     type="image/x-icon"
+     href="./assets/image/game.png"> 
+    <link 
+     rel="stylesheet" 
+     href="./assets/style/index.css"
+     media="all">
+    <link rel="preconnect" 
+     href="https://fonts.googleapis.com">
+    <link rel="preconnect" 
+     href="https://fonts.gstatic.com" 
+     crossorigin>
+    <link 
+     href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" 
+     rel="stylesheet">
+    <script defer src="./assets/script/index.js"></script>
+    </head>
+    <body class="container">
+      <header>
+          <h1>Crazy Keyboard</h1>
+      </header>
+      <main>
+        <div class="center">
+          <div class="timer">
+          <img
+          src="./assets/image/clock.png"
+          id="clock-img"
+          alt="clock"
+          />:<span id="timer">0</span>
+          </div>
+        </div>
+        <div class="grid">
+          <p class="current"> </p>
+          <div class="text-input">
+              <input type="text" name="txt-input"  placeholder="Start Typing...">
+              <h2 class="#message"></h2>
+          </div>
+          <div class="button">
+              <button class="start" type="submit">Start</button>
+              <button class="reset" type="reset">Reset</button>
+          </div>
+        </div>
+        <div class="instruction">
+            Instruction: Type the displayed word as fast as you can.<P></P>
+            After first chance you get 20 more seconds.
+        </div>
+        <div class="bottom">
+          <div class="hits">
+              Total hits: <span id="hits"> 0</span>
+          </div>
+          <div class="score">
+              Score: <span id="score"> 0</span> 
+          </div>
+        </div>
+    </main>
+    <footer>
+      <p> Copyright to Dupanshu</p>
+    </footer>
+  </body>
+</html>
+<!---->
